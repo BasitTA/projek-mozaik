@@ -1,11 +1,14 @@
-@extends('layout.main')
+@extends('layout.mainAdmin')
 
 @section('title','DARE')
 
 @section('container')
     <div class="">
-        <!-- <h3 class="text-center mt-2 mb-2">I'm Brave :D</h3> -->
-        <div class="row text-center justify-content-center mt-2">
+        <br>
+        <div class="text-center">
+            <a href="/admin/newDare" class="btn btn-primary text-light">Input New Dare</a>
+        </div><br>
+        <div class="row text-center justify-content-center">
             <!-- <div class="card col-sm-3 col-lg-2 mr-3 mb-3" style="width: 18rem;">
                 <img class="card-img-top my-2" style="height:200px; wight:auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggxo63gYn_1NKTmgNcvIbzV6uljAJFRcayOg63Qfdxf8g3sfd" alt="Card image cap">
                 <div class="card-body">
@@ -37,7 +40,8 @@
                 <div class="card-body">
                     <h5 class="card-title">{{$dare->judul}}</h5>
                     <p class="card-text">{{$dare->teks}}</p>
-                    <a href="/dare/{{$dare->id}}" class="btn btn-primary">Klik di sini biar ga takut lagi :)</a>
+                    <a href="" class="btn btn-warning">Edit</a>
+                    <a href="" class="btn btn-danger">Delete</a>
                 </div>
             </div>
             @endforeach

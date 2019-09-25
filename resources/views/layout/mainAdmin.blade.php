@@ -5,27 +5,30 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/dare">DARE</a>
+            <a class="navbar-brand" href="/admin/dare">DARE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/dare">Home<span class="sr-only"></span></a>
+                        <a class="nav-link" href="/admin/dare">Home<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/doa">Doa</a>
+                        <a class="nav-link" href="/admin/doa">Doa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Tentang Kami</a>
+                        <a class="nav-link" href="/admin/newDare">Input Dare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/newDoa">Input Doa</a>
                     </li>
                 </ul>
-            </div> 
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="btn btn-success btn-sm" href="/login">Login As Admin</a>
+                        <a class="btn btn-danger btn-sm" href="/login">Logout</a>
                     </li>
                 </ul>
             </div>
